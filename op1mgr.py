@@ -3,11 +3,9 @@ import readline
 import os
 import shutil
 import sys
-import subprocess
 from pathlib import Path
 
 PROJECTS_DIR = 'F:\\OP-1\\projects'
-SSH_KEY = 'C:\\Users\\morchv\\.ssh\\op1'
 
 def key_prompt(question):
     print(question)
